@@ -72,3 +72,4 @@ if __name__ == '__main__':
             print(success)
             with open('%s_%s.wav' % (api_name, voice_name), 'wb') as f:
                 f.write(r)
+
