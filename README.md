@@ -23,6 +23,14 @@ pip install aliyun-python-sdk-core
 ```
 git clone https://github.com/wvinzh/SpeechSynthesis.git
 ```
+- 更改自己的Apikey等
+
+[aliyun/wutong_ali.py L18-L21](https://github.com/wvinzh/SpeechSynthesis/blob/67746956400b6acdf07ed6f97b9dad5077dd1926/aliyun/wutong_ali.py#L18-L21)  
+[baiduyun/wutong_baidu.py L23-L24](https://github.com/wvinzh/SpeechSynthesis/blob/d4ead604a3a947ef5d8d91de0c905aa03616222d/baiduyun/wutong_baidu.py#L23-L24)  
+[tengxunyun/wutong_tencent.py L11-L12](https://github.com/wvinzh/SpeechSynthesis/blob/67746956400b6acdf07ed6f97b9dad5077dd1926/tengxunyun/wutong_tencent.py#L11-L12)  
+[xunfei/wutong_xunfei.py L13-L14](https://github.com/wvinzh/SpeechSynthesis/blob/d4ead604a3a947ef5d8d91de0c905aa03616222d/xunfei/wutong_xunfei.py#L13-L14)
+
+
 - 将代码目录放置你的代码目录下
 ```
 from wutong_speech import WutongSpeech
